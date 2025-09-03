@@ -22,7 +22,7 @@ Aplicația este concepută pentru a simplifica procesul de rezervare, oferind cl
 - **Descriere:** Pagina oferă informații despre aplicație și beneficiile acesteia, indiferent dacă ești client sau vrei să-ți listezi afacerea.
 - **Elemente:** Descrierea Companiei, Listă de Beneficii.
 
-![Screenshot 2025-03-12 at 00.55.45.png](attachment:9b7ba220-a40e-4f32-aac8-6252174d07f4:Screenshot_2025-03-12_at_00.55.45.png)
+![About Us Page](images/screenshot_about.png)
 
 ## Services Page
 
