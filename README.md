@@ -23,7 +23,8 @@ Home Page<img width="1162" height="1217" alt="image" src="https://github.com/use
 - **Descriere:** Pagina oferă informații despre aplicație și beneficiile acesteia, indiferent dacă ești client sau vrei să-ți listezi afacerea.
 - **Elemente:** Descrierea Companiei, Listă de Beneficii.
 
-About Us Page<img width="1162" height="1217" alt="Screenshot 2025-03-12 at 00 52 44" src="https://github.com/user-attachments/assets/bfca1649-6f5b-4700-a96b-a5e0b79f940f" />
+About Us Page<img width="1165" height="1225" alt="image" src="https://github.com/user-attachments/assets/5f5234e1-6d38-4b87-8bcf-f97ce17dcf2f" />
+
 
 
 ## Services Page
