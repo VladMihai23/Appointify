@@ -14,7 +14,7 @@ Aplicația este concepută pentru a simplifica procesul de rezervare, oferind cl
 - **Elemente:** Navbar, Hero Section, Footer, Slide-show.
 - **Funcționalități:** Navigare între pagini, buton "Get Started" care trimite mai departe către pagina de Registration. Slide-show reprezentativ cu serviciile oferite pe aplicație.
 
-![Home Page]()
+![Home Page](https://imgur.com/a/MeHhs3q)
 
 
 ## About Us Page
