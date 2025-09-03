@@ -1,0 +1,36 @@
+@model IEnumerable<WebApplication1.Models.Payment>
+
+@{
+    ViewData["Title"] = "Istoric Plăți";
+}
+
+<h2>Istoric Plăți</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered mt-3">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nume</th>
+            <th>Suma</th>
+            <th>Data Creării</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var payment in Model)
+        {
+            <tr>
+                <td>@payment.Id</td>
+                <td>@payment.Name</td>
+                <td>@payment.Amount</td>
+                <td>@payment.CreatedAt.ToLocalTime().ToString("dd MMMM yyyy, HH:mm")</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Nu există plăți salvate în baza de date.</p>
+}

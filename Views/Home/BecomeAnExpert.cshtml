@@ -1,0 +1,30 @@
+@using WebApplication1.Models
+@model ExpertRequest
+
+@{
+    ViewData["Title"] = "Become An Expert";
+}
+
+<h2>Become An Expert</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<form method="post" asp-action="Create" asp-controller="SubmitRequest">
+    <div class="form-group">
+        <label for="Description">Why do you want to become an Expert?</label>
+        <textarea class="form-control" id="Description" name="Description" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit Request</button>
+</form>

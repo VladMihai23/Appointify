@@ -1,0 +1,20 @@
+@model Contact
+
+<h2>Editare Mesaj</h2>
+
+<form method="post" asp-action="Edit">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <div class="mb-3">
+        <label>Nume</label>
+        <input type="text" name="Name" class="form-control" value="@Model.Name" required />
+    </div>
+    <div class="mb-3">
+        <label>Email</label>
+        <input type="email" name="Email" class="form-control" value="@Model.Email" required />
+    </div>
+    <div class="mb-3">
+        <label>Mesaj</label>
+        <textarea name="Message" class="form-control" rows="5" required>@Model.Message</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Salvează</button>
+</form>

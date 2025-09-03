@@ -1,0 +1,27 @@
+@model IEnumerable<WebApplication1.Models.Review>
+@using System.Security.Claims
+
+<h2>Recenzii</h2>
+
+@foreach (var review in Model)
+{
+    <div class="card mb-3 p-3">
+        <strong>
+            <strong>@review.User?.UserName</strong>
+        </strong>
+
+        <p>@review.Comment</p>
+        <p>Rating: @review.Rating</p>
+        <small>@review.CreatedAt.ToLocalTime().ToString("dd MMMM yyyy, HH:mm")</small>
+
+        @if (review.UserId == User.FindFirstValue(ClaimTypes.NameIdentifier))
+        {
+            <div class="mt-2">
+                <a asp-action="Edit" asp-route-id="@review.Id" class="btn btn-sm btn-warning">Editare</a>
+                <a asp-action="Delete" asp-route-id="@review.Id" class="btn btn-sm btn-danger">Ștergere</a>
+            </div>
+        }
+    </div>
+}
+
+<a asp-action="Create" class="btn btn-primary mt-3">Adaugă recenzie</a>

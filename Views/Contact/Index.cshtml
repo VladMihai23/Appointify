@@ -1,0 +1,44 @@
+@model Contact
+
+<div class="contaier mt-5">
+    <h2 class="text-center">Contactează-ne</h2>
+    <p class="text-center">Completează formularul de mai jos și te vom contacta în cel mai scurt timp.</p>
+    
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post" asp-controller="Contact" asp-action="Submit">
+                <div class="mb-3">
+                    <label for="Name" class="form-label">Nume</label>
+                    <input type="text" class="form-control" id="Name" name="Name" placeholder="Introduceți numele" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="Email" name="Email" placeholder="Introduceți email" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Nessage" class="form-label">Nume</label>
+                    <textarea class="form-control" id="Message" name="Message" rows="5" placeholder="Scrie mesajul aici:" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary w-100">Trimite mesajul</button>
+                
+            </form>
+        </div>
+        
+        <div class="col-md-6">
+            <h4>Informatii de contact</h4>
+            <p>Adresa: Strada Exemplului, nr 111</p>
+            <p>Telefon: +40 123 456 789</p>
+            <p>Email: contact@appointify.com</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2855.1187691287478!2d23.783206077255194!3d44.307508809865894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d7942c5b8fa1%3A0x321e02ebc4861c26!2sStr.%20R%C3%A2ului%20156%2C%20Craiova!5e0!3m2!1sro!2sro!4v1741297130647!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                
+            </iframe>
+                
+        </div>
+    </div>
+    
+    
+</div>

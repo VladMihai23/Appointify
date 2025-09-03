@@ -1,0 +1,32 @@
+@model AppUser
+
+@{
+    ViewData["Title"] = "Login";
+}
+<h2>Login</h2>
+
+<form asp-action="Login" asp-controller="Account" method="post">
+    <div class="form-group">
+        
+        <label for="username">Username or Email:</label>
+        <input type="username" id="username" name="username" class ="form-control" required/>
+        
+    </div>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" class="form-control" required/>
+    
+    <div class="form-group form-check">
+        <input type="checkbox" name="rememberMe" class="form-check-input"/>
+        <label class="form-check-label">Remember Me</label>
+    </div>
+        
+    <button type="sbumit" class="btn btn-primary">Login</button>
+    <br></br>
+    <div class="mb-5"> 
+    <p class="closure-text">Don't have an account?</p>
+    <a href="/Account/Register" class="btn btn-secondary">You can register here</a>
+    </div>
+    
+</form>
+

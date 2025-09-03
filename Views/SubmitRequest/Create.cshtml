@@ -1,0 +1,15 @@
+@model ExpertRequest
+
+@{
+    ViewData["Title"] = "Create Request";
+}
+
+<h2>Create New Request</h2>
+
+<form method="post" asp-action="Create" asp-controller="SubmitRequest">
+    <div class="form-group">
+        <label>Description</label>
+        <textarea class="form-control" name="Description" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit Request</button>
+</form>

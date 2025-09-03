@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Title";
+}
+
+<body>
+
+
+<header>
+    <h2 class="text-center">Programează-te pentru o consultație medicală</h2>
+    <p class="text-muted text-center">
+        Alege o dată și o oră potrivită pentru tine și lasă-ne să ne ocupăm de restul.
+        Programarea ta este doar la un click distanță!
+    </p>
+
+    <div class="container mt-3">
+        <form method="post">
+
+            <label for="datepicker">Alege data:</label>
+            <input type="text" class="form-control" id="datepicker" required>
+
+            <label for="time">Alege ora:</label>
+            <input type="text" class="form-control" id="time" required>
+
+            <button type="submit" asp-action="BookingSuccessfully" asp-controller="Home" class="btn btn-primary">Efectuează programarea <i class="bi bi-check2"></i></button>
+
+
+
+        </form>
+
+
+    </div>
+
+
+
+</header>
+
+
+</body>

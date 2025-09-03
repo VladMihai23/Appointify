@@ -1,0 +1,49 @@
+@{
+    ViewData["Title"] = "Plată Simulată";
+}
+
+<h2>Plată cu Cardul</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<form asp-action="ProcessPayment" asp-controller="Payments" method="post">
+    <div class="form-group mt-3">
+        <label for="name">Nume:</label>
+        <input type="text" name="name" class="form-control" required />
+    </div>
+
+    <div class="form-group mt-3">
+        <label for="amount">Suma de plată:</label>
+        <input type="number" name="amount" class="form-control" min="0.1" step="0.01" required />
+    </div>
+
+    <div class="form-group mt-3">
+        <label for="cardNumber">Număr Card:</label>
+        <input type="text" name="cardNumber" class="form-control" required />
+    </div>
+
+    <div class="form-group mt-3">
+        <label for="cardHolderName">Numele de pe Card:</label>
+        <input type="text" name="cardHolderName" class="form-control" required />
+    </div>
+
+    <div class="form-group mt-3">
+        <label for="expiryDate">Data Expirării (MM/YY):</label>
+        <input type="text" name="expiryDate" class="form-control" required />
+    </div>
+
+    <div class="form-group mt-3">
+        <label for="cvv">CVV:</label>
+        <input type="text" name="cvv" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-4">Plătește</button>
+</form>

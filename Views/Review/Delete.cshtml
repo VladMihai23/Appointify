@@ -1,0 +1,20 @@
+@model WebApplication1.Models.Review
+
+<h2>Confirmă ștergerea</h2>
+
+<p>Ești sigur că vrei să ștergi această recenzie?</p>
+
+<blockquote class="border-left ps-3">
+    <p>@Model.Comment</p>
+    <p><strong>Rating:</strong> @Model.Rating</p>
+</blockquote>
+
+<form asp-action="Delete" method="post">
+    @Html.AntiForgeryToken()
+
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="UserId" /> 
+
+    <button type="submit" class="btn btn-danger">Șterge</button>
+    <a asp-action="Index" class="btn btn-secondary">Anulează</a>
+</form>

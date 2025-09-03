@@ -1,0 +1,31 @@
+@model IEnumerable<ExpertRequest>
+
+@{
+    ViewData["Title"] = "Requests Index";
+}
+
+<h2>Requests</h2>
+
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>UserId</th>
+        <th>Description</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var request in Model)
+    {
+        <tr>
+            <td>@request.UserId</td>
+            <td>@request.Description</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@request.ExpertId" class="btn btn-warning">Edit</a>
+                <a asp-action="Details" asp-route-id="@request.ExpertId" class="btn btn-info">Details</a>
+                <a asp-action="Delete" asp-route-id="@request.ExpertId" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

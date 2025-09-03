@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<body>
+<section class="hero">
+    <div class="container mt-5">
+        
+        <h1 class="text-center">Bine ai venit la Appointify!</h1>
+        
+        <div class="text-center mb-4">
+            
+            <p>Gestionarea programărilor tale nu a fost niciodată mai ușoară.</p>
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        
+                        <img src="https://s3.eu-central-1.amazonaws.com/mero.ro/frizerie.jpg" class="d-block image-index" alt="Frizură modernă">
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        
+                        <img src="https://s3.eu-central-1.amazonaws.com/mero.ro/masaj.jpg" class="d-block image-index" alt="Masaj terapeutic">
+                        
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        
+                        <img src="https://s3.eu-central-1.amazonaws.com/mero.ro/estetica_medicala.jpg" class="d-block image-index" alt="Servicii medicale">
+
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://s3.eu-central-1.amazonaws.com/mero.ro/tratamente_si_remodelare_corporala.jpg" class="d-block image-index" alt="Tratemente remodelare coporală"></img>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            
+                
+                <a type="submit" asp-controller="Account" asp-action="Register" class="btn btn-primary btn-lg">Get Started</a>
+                
+            
+            
+        </div>
+        
+        <div>
+            <a href="/Home/TermeniSiConditii">Termeni și Condiții</a>
+            <br/>
+            <a href="/Home/PoliticaDeConfidentialitate">Politică de Confidențialitate</a>
+        </div>
+              
+    </div>
+    
+</section>
+
+</body>
+
+

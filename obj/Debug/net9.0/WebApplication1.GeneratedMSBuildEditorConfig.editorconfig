@@ -1,0 +1,193 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApplication1
+build_property.RootNamespace = WebApplication1
+build_property.ProjectDir = /Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Appointment/BookingIT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwb2ludG1lbnQvQm9va2luZ0lULmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Appointment/BookingMasaj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwb2ludG1lbnQvQm9va2luZ01hc2FqLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Appointment/BookingMedical.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwb2ludG1lbnQvQm9va2luZ01lZGljYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Appointment/BookingSuccessfully.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwb2ludG1lbnQvQm9va2luZ1N1Y2Nlc3NmdWxseS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Appointment/BookingTuns.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwb2ludG1lbnQvQm9va2luZ1R1bnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Appointment/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwb2ludG1lbnQvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Appointment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwb2ludG1lbnQvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Appointment/MyAppointments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwb2ludG1lbnQvTXlBcHBvaW50bWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Contact/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Contact/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Expert/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZXJ0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Home/BecomeAnExpert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9CZWNvbWVBbkV4cGVydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Home/LoginSuccessfully.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpblN1Y2Nlc3NmdWxseS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Home/PoliticaDeConfidentialitate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qb2xpdGljYURlQ29uZmlkZW50aWFsaXRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Home/RegisterSuccessfully.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9SZWdpc3RlclN1Y2Nlc3NmdWxseS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Home/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Home/TermeniSiConditii.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9UZXJtZW5pU2lDb25kaXRpaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Payments/MakePayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF5bWVudHMvTWFrZVBheW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Payments/PaymentHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF5bWVudHMvUGF5bWVudEhpc3RvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Profile/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9FZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Profile/ViewProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9WaWV3UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Review/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Review/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3L0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Review/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Review/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/SubmitRequest/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VibWl0UmVxdWVzdC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/SubmitRequest/Detele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VibWl0UmVxdWVzdC9EZXRlbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/SubmitRequest/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VibWl0UmVxdWVzdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/SubmitRequest/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VibWl0UmVxdWVzdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vladpiriia/RiderProjects/WebApplication1/WebApplication1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4ak7nacacg

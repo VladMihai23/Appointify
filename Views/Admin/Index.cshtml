@@ -1,0 +1,77 @@
+@model WebApplication1.Models.AdminDashBoardViewModel
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h2>Admin Dashboard</h2>
+
+<h3>Pending Expert Requests</h3>
+
+@if (Model.ExpertRequests != null && Model.ExpertRequests.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>UserId</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var request in Model.ExpertRequests)
+        {
+            <tr>
+                <td>@request.UserId</td>
+                <td>@request.Description</td>
+                <td>
+                    <a asp-action="ApproveRequest" asp-route-id="@request.ExpertId" class="btn btn-success">Accept</a>
+                    <a asp-action="DenyRequest" asp-route-id="@request.ExpertId" class="btn btn-danger">Deny</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No requests available.</p>
+}
+
+<h3>Contact Messages</h3>
+
+@if (Model.Contacts != null && Model.Contacts.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Message</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var contact in Model.Contacts)
+        {
+            <tr>
+                <td>@contact.Name</td>
+                <td><a href="mailto:@contact.Email">@contact.Email</a></td>
+                <td>@contact.Message</td>
+                <td>
+                    <form asp-action="DeleteContact" asp-controller="Admin" method="post">
+                        <input type="hidden" name="id" value="@contact.Id" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+
+
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No contact messages available.</p>
+}

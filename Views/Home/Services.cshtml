@@ -1,0 +1,69 @@
+@model Appointment
+
+@{
+    ViewData["Title"] = "Services";
+    Layout = "_Layout";
+}
+
+<body>
+<header>
+    <h1 class="text-center">Lista Serviciilor</h1>
+    <p>Alege serviciul dorit și programează-te rapid!</p>
+</header>
+
+<section class="service-list container mt-4">
+
+    <div class="row align-items-center mb-4">
+
+        <div class="col-md-6">
+            
+            <h2>Tuns</h2>
+            <p>O tunsoare modernă realizată de profesioniști.</p>
+            <a asp-controller="Appointment" asp-action="BookingTuns" class="btn btn-primary">Programează-te acum</a>
+            
+        </div>
+
+        <div class="col-md-6">
+            <img src="https://static.thehoneycombers.com/wp-content/uploads/sites/6/2024/01/barber-shops-lead-image.jpg" class="img-fluid rounded" alt="Frizură modernă">
+        </div>
+        
+    </div>
+
+
+    <div class="row align-items-center mb-4 flex-md-row-reverse">
+        <div class="col-md-6">
+            <h2>Consultație Medicală</h2>
+            <p>Consultații generale și specializate.</p>
+            <a asp-controller="Appointment" asp-action="BookingMedical" class="btn btn-primary">Programează-te acum</a>
+        </div>
+        <div class="col-md-6">
+            <img src="https://media.istockphoto.com/id/1406496671/photo/psychiatrist-or-professional-psychologist-counseling-or-therapy-session-to-male-patients.jpg?s=612x612&w=0&k=20&c=8hA0uzGJoMWohJWEtNUgNemRHawAR5Sw2frrEwW_ldY=" class="img-fluid rounded" alt="Consultație medicală">
+        </div>
+    </div>
+
+    <div class="row align-items-center mb-4">
+        <div class="col-md-6">
+            <h2>Masaj Terapeutic</h2>
+            <p>Relaxează-te și scapă de tensiune cu un masaj profesionist.</p>
+            <a asp-controller="Appointment" asp-action="BookingMasaj" class="btn btn-primary">Programează-te acum</a>
+        </div>
+        <div class="col-md-6">
+            <img src="https://media.istockphoto.com/id/1357320952/photo/close-up-of-a-man-getting-massage.jpg?s=612x612&w=0&k=20&c=ifmvqiDI5LyTwG6ExSw4MAaveyTK8TrcbqF5V3JYayg=" class="img-fluid rounded" alt="Masaj terapeutic">
+        </div>
+    </div>
+
+    <div class="row align-items-center mb-4 flex-md-row-reverse">
+        <div class="col-md-6">
+            <h2>Consultanță IT</h2>
+            <p>Servicii de suport și dezvoltare software.</p>
+            <a asp-controller="Appointment" asp-action="BookingIT" class="btn btn-primary">Programează-te acum</a>
+        </div>
+        <div class="col-md-6">
+            <img src="https://www.viastore.com/career/sites/career/files/styles/16_9_xl/public/2020-07/2020-it-consulting-group-picture.jpg?h=f3e8a501&itok=y5MCIXaR" class="img-fluid rounded" alt="Consultanță IT">
+        </div>
+    </div>
+
+</section>
+
+
+</body>

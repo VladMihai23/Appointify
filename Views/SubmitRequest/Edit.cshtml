@@ -1,0 +1,17 @@
+@using WebApplication1.Models
+@model ExpertRequest
+
+@{
+    ViewData["Title"] = "Edit Request";
+}
+
+<h2>Edit Request</h2>
+
+<form method="post" asp-action="Edit">
+    <input type="hidden" name="Id" value="@Model.ExpertId" />
+    <div class="form-group">
+        <label>Description</label>
+        <textarea class="form-control" name="Description" rows="4">@Model.Description</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Save</button>
+</form>

@@ -1,0 +1,17 @@
+@model ExpertRequest
+
+@{
+    ViewData["Title"] = "Delete Request";
+}
+
+<h2>Delete Request</h2>
+
+<p>Are you sure you want to delete this request?</p>
+
+<p><strong>Description:</strong> @Model.Description</p>
+
+<form method="post" asp-action="Delete">
+    <input type="hidden" name="Id" value="@Model.ExpertId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+</form>

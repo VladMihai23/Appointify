@@ -1,0 +1,38 @@
+@model IEnumerable<Contact>
+
+
+<h2>Mesajele mele trimise</h2>
+
+@if (!Model.Any())
+{
+    <p>Nu ai trimis niciun mesaj încă.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Nume</th>
+            <th>Email</th>
+            <th>Mesaj</th>
+            <th>Acțiuni</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var contact in Model)
+        {
+            <tr>
+                <td>@contact.Name</td>
+                <td>@contact.Email</td>
+                <td>@contact.Message</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@contact.Id" class="btn btn-warning">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@contact.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
