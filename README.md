@@ -15,7 +15,7 @@ Aplicația este concepută pentru a simplifica procesul de rezervare, oferind cl
 - **Funcționalități:** Navigare între pagini, buton "Get Started" care trimite mai departe către pagina de Registration. Slide-show reprezentativ cu serviciile oferite pe aplicație.
 
 ![Screenshot 2025-03-12 at 00.52.44.png](attachment:eb1ca3d1-6296-435e-8a79-e6b636917f1f:Screenshot_2025-03-12_at_00.52.44.png)
-
+![img](<img width="1162" height="1217" alt="image" src="https://github.com/user-attachments/assets/950a5fb1-589c-4c71-90d3-2b77cbbf1408" />)
 ## About Us Page
 
 - **Descriere:** Pagina oferă informații despre aplicație și beneficiile acesteia, indiferent dacă ești client sau vrei să-ți listezi afacerea.
