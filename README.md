@@ -14,7 +14,7 @@ Aplicația este concepută pentru a simplifica procesul de rezervare, oferind cl
 - **Elemente:** Navbar, Hero Section, Footer, Slide-show.
 - **Funcționalități:** Navigare între pagini, buton "Get Started" care trimite mai departe către pagina de Registration. Slide-show reprezentativ cu serviciile oferite pe aplicație.
 
-!(attachment:eb1ca3d1-6296-435e-8a79-e6b636917f1f:Screenshot_2025-03-12_at_00.52.44.png)
+![Home Page]()
 
 
 ## About Us Page
@@ -22,7 +22,8 @@ Aplicația este concepută pentru a simplifica procesul de rezervare, oferind cl
 - **Descriere:** Pagina oferă informații despre aplicație și beneficiile acesteia, indiferent dacă ești client sau vrei să-ți listezi afacerea.
 - **Elemente:** Descrierea Companiei, Listă de Beneficii.
 
-![About Us Page](images/screenshot_about.png)
+![About Us Page](<img width="1162" height="1217" alt="Screenshot 2025-03-12 at 00 52 44" src="https://github.com/user-attachments/assets/bfca1649-6f5b-4700-a96b-a5e0b79f940f" />
+)
 
 ## Services Page
 
